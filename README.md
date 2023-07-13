@@ -1,37 +1,37 @@
-# Proyecto de Creación de Servicios Utilizando Java
+# Java Service Creation Project
 
-Este proyecto tiene como objetivo desarrollar soluciones robustas y escalables utilizando Java y NetBeans. Se enfoca en la creación de servicios que puedan ser consumidos por otras aplicaciones o clientes. 
+This project aims to develop robust and scalable solutions using Java and NetBeans. It focuses on creating services that can be consumed by other applications or clients. 
 
-## Requisitos de Software
+## Software Requirements
 
-- JDK (Java Development Kit) instalado en el sistema.
-- NetBeans IDE instalado para el desarrollo y construcción del proyecto.
-- Bibliotecas o dependencias específicas según las necesidades del proyecto. Algunas bibliotecas comunes para la creación de servicios en Java incluyen:
-  - Apache CXF para la implementación de servicios web.
-  - Spring Framework para el desarrollo de aplicaciones empresariales.
-  - Jersey para la creación de servicios RESTful.
-  - Hibernate para el acceso a bases de datos y el mapeo objeto-relacional.
-  - Log4j para el registro de eventos y mensajes en la aplicación.
-  - JUnit para la realización de pruebas unitarias.
+- JDK (Java Development Kit) installed on the system.
+- NetBeans IDE installed for project development and construction.
+- Specific libraries or dependencies according to the project requirements. Some common libraries for Java service creation include:
+  - Apache CXF for web service implementation.
+  - Spring Framework for enterprise application development.
+  - Jersey for creating RESTful services.
+  - Hibernate for database access and object-relational mapping.
+  - Log4j for event logging and messaging in the application.
+  - JUnit for performing unit testing.
 
-## Configuración del Proyecto
+## Project Configuration
 
-1. **Creación del proyecto**: Abre NetBeans y crea un nuevo proyecto Java utilizando la plantilla adecuada para tu tipo de servicio (por ejemplo, Servicio Web, Aplicación Spring, Servicio RESTful, etc.).
+1. **Project Creation**: Open NetBeans and create a new Java project using the appropriate template for your service type (e.g., Web Service, Spring Application, RESTful Service, etc.).
 
-2. **Configuración de dependencias**: Configura las dependencias necesarias para tu proyecto. Esto implica agregar las bibliotecas requeridas en el archivo de configuración del proyecto (por ejemplo, archivo pom.xml en un proyecto Maven). Utiliza los repositorios de dependencias correspondientes para descargar las bibliotecas requeridas.
+2. **Dependency Configuration**: Set up the necessary dependencies for your project. This involves adding the required libraries in the project configuration file (e.g., pom.xml file in a Maven project). Use the corresponding dependency repositories to download the required libraries.
 
-3. **Implementación del servicio**: Codifica la lógica del servicio utilizando Java y las bibliotecas seleccionadas. Define las interfaces, clases y métodos necesarios para proporcionar las funcionalidades requeridas por el servicio.
+3. **Service Implementation**: Code the service logic using Java and the selected libraries. Define the necessary interfaces, classes, and methods to provide the required functionalities for the service.
 
-4. **Configuración del despliegue**: Configura la configuración de despliegue del servicio. Esto puede incluir la especificación de puertos, URL de acceso, configuración de base de datos, configuración de seguridad, etc. Asegúrate de seguir las mejores prácticas de despliegue y seguridad.
+4. **Deployment Configuration**: Configure the service deployment settings. This may include specifying ports, access URLs, database configuration, security configuration, etc. Make sure to follow deployment and security best practices.
 
-5. **Pruebas y depuración**: Realiza pruebas exhaustivas del servicio y utiliza las herramientas de depuración proporcionadas por NetBeans para identificar y solucionar problemas en la implementación del servicio.
+5. **Testing and Debugging**: Perform comprehensive testing of the service and utilize the debugging tools provided by NetBeans to identify and resolve issues in the service implementation.
 
-6. **Despliegue del servicio**: Despliega el servicio en un servidor de aplicaciones compatible o en el entorno requerido. Asegúrate de seguir las instrucciones de despliegue específicas para el servidor o entorno seleccionado.
+6. **Service Deployment**: Deploy the service to a compatible application server or the required environment. Follow specific deployment instructions for the selected server or environment.
 
-## Contribuciones
+## Contributions
 
-Si deseas contribuir a este proyecto, siéntete libre de hacer fork del repositorio y enviar pull requests con tus mejoras.
+If you wish to contribute to this project, feel free to fork the repository and submit pull requests with your improvements.
 
-## Licencia
+## License
 
-Este proyecto se distribuye bajo la Licencia MIT. Consulta el archivo [LICENSE](./LICENSE) para obtener más detalles.
+This project is distributed under the MIT License. See the [LICENSE](./LICENSE) file for more details.
